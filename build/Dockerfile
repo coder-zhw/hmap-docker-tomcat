@@ -3,7 +3,7 @@ FROM tomcat:8.5
 LABEL maintainer="zhw <coder.zhw@qq.com>"
 
 COPY build/catalina.properties conf/
-COPY build/memory.jsp webapps/
+COPY build/memory.jsp webapps/mem/
 
 ENV TZ=Asia/Shanghai
 
