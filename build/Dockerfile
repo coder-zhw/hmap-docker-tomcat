@@ -4,8 +4,6 @@ LABEL maintainer="zhw <coder.zhw@qq.com>"
 
 COPY build/catalina.properties conf/
 
-COPY build/catalina.sh bin/
-
 ENV TZ=Asia/Shanghai
 
 RUN set -x \
