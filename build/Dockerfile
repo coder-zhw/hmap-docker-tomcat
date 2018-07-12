@@ -2,7 +2,7 @@ FROM tomcat:8.5
 
 LABEL maintainer="zhw <coder.zhw@qq.com>"
 
-COPY build/catalina.properties conf/
+COPY ./catalina.properties conf/
 
 ENV TZ=Asia/Shanghai
 
