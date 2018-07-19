@@ -27,7 +27,7 @@
     <!--
     <Manager pathname="" />
     -->
-    <Resource name="jdbc/hms_dev"
+    <Resource name="jdbc/hmap_dev"
               auth="Container"
               driverClassName="com.mysql.jdbc.Driver"
               url="jdbc:mysql://hmap-docker-mysql:3306/hmap_dev?useUnicode=true&amp;characterEncoding=UTF-8"
